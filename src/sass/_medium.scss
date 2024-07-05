@@ -1,0 +1,290 @@
+@media (min-width: 768px) {
+	.nav-mobile {
+		.box {
+			padding: 1.4em 4em;
+		}
+	}
+
+	.main-mobile {
+		.conatiner {
+			.title-box {
+				.title {
+					font-size: 6.1rem;
+				}
+			}
+
+			.month-box {
+				.toggle-month {
+					width: 45%;
+					max-width: 34.6em;
+				}
+			}
+
+			.card-conatiner {
+				.cards-box {
+					.card {
+						width: 80%;
+						max-width: 560px;
+					}
+				}
+
+				.proffesional-box {
+					width: 70%;
+					max-width: 580px;
+					.proffesional {
+						width: 100%;
+					}
+				}
+			}
+		}
+
+		.section-level {
+			.title-section {
+				.title {
+					font-size: 4rem;
+				}
+			}
+			.mini-card-box {
+				width: 96%;
+			}
+		}
+
+		.section-questions {
+			.branch-img {
+				display: block;
+			}
+
+			.title-box {
+				margin: 0;
+				padding-left: 4em;
+				.title {
+					font-size: 3.85rem;
+				}
+			}
+			.accordion {
+				.accordion-box {
+					margin: 0;
+					padding-left: 4em;
+					max-width: 640px;
+				}
+			}
+		}
+
+		.business-owners {
+			.title-section {
+				// width: 50%;
+				.title {
+					font-size: 4.2rem;
+				}
+			}
+			.opinion-box {
+				.opinion {
+					.first {
+						padding-right: 7em;
+						padding-left: 4em;
+					}
+					.second {
+						padding-left: 5em;
+					}
+					.opinion-link {
+						.opinion-img {
+							min-height: 5em;
+						}
+
+						.first-img {
+							max-width: 27em;
+							min-width: 20em;
+						}
+
+						.second-img {
+							max-width: 24em;
+						}
+					}
+				}
+			}
+		}
+		.need-help {
+			.help-img-box {
+				.leaf {
+					right: 16.2em;
+					top: -3.5em;
+					width: 16em;
+				}
+			}
+		}
+
+		.section-banner {
+			.banner-box {
+				padding: 7em;
+			}
+		}
+	}
+}
+
+@media (min-width: 992px) {
+	.nav-mobile {
+		display: none;
+	}
+	.nav-desktop {
+		position: fixed;
+		left: 0;
+		display: block;
+		// max-width: 1375px;
+		background-color: #fff;
+		z-index: 100;
+		.nav-box {
+			margin: 0 auto;
+			max-width: 1280px;
+		}
+		.additional-box {
+			margin: 0 auto;
+			max-width: 1280px;
+		}
+	}
+
+	.main-mobile {
+		.conatiner {
+			margin: 0 auto;
+			max-width: 1100px;
+
+			.title-box {
+				padding: 12em 15em 2em;
+				.title {
+					margin-top: 1.5em;
+					width: 11em;
+				}
+			}
+
+			.month-box {
+				.toggle-month {
+					width: 35%;
+					max-width: 34.7em;
+				}
+			}
+
+			.card-conatiner {
+				margin-top: 7em;
+				align-items: flex-start;
+				flex-direction: row;
+
+				.proffesional-box {
+					margin-top: 0;
+				}
+
+				.cards-box {
+					.buisness {
+						margin-left: -5em;
+					}
+
+					.starter {
+						margin-right: -5em;
+					}
+				}
+			}
+		}
+
+		.section-level {
+			margin: 0 auto;
+			margin-top: 12em;
+			max-width: 1144px;
+
+			.title-section {
+				padding-bottom: 4em;
+			}
+
+			.mini-card-box {
+				justify-content: space-between;
+				overflow: visible;
+
+				.cards {
+					max-width: 332px;
+
+					.amount-box {
+						.amount {
+							font-size: 3.5rem;
+						}
+					}
+				}
+			}
+		}
+
+		.section-questions {
+			.title-box {
+				padding-left: 5em;
+			}
+			.accordion {
+				.accordion-box {
+					padding-left: 5em;
+				}
+			}
+		}
+
+		.section-banner {
+			width: 92%;
+			.banner-box {
+				.centroid {
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					margin: 0;
+					padding: 0 4em;
+
+					.banner-title-box {
+						padding-bottom: 0;
+					}
+					.banner-button-box {
+						display: flex;
+						justify-content: center;
+						.banner-btn {
+							padding-top: 14px;
+							font-size: 1.6rem;
+						}
+					}
+				}
+			}
+		}
+	}
+	.footer {
+		.footer-container {
+			display: flex;
+			justify-content: space-between;
+			margin: 0 auto;
+			max-width: 1280px;
+
+			.logo-box {
+				max-width: 250px;
+				min-width: 188.5px;
+			}
+			.links-place {
+				max-width: 250px;
+				min-width: 188.5px;
+			}
+
+			.resources-box {
+				.all-links {
+					.dropdown-box {
+						.dropdown-link {
+							span {
+								padding-right: 2em;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.footer-down {
+			.footer-social {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+
+				.social-box {
+					margin: 0;
+				}
+			}
+		}
+	}
+}
+// padding: 4em 15em 2em;
+// margin-top: 2em;

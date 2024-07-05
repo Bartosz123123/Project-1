@@ -1,0 +1,60 @@
+@media (min-width: 1024px) {
+	.main-mobile {
+		.section-level {
+			.mini-card-box {
+				.cards {
+					min-height: 356px;
+				}
+			}
+		}
+
+		.section-questions {
+			.branch-img {
+				right: -51em;
+			}
+		}
+		.business-owners {
+			.owners-container {
+				align-items: center;
+				overflow: visible;
+			}
+		}
+
+		.need-help {
+			display: flex;
+			align-items: center;
+			margin-top: 8em;
+			max-width: 1144px;
+
+			.help-img-box {
+				.leaf {
+					right: 4em;
+					top: -5em;
+					width: 20em;
+				}
+				.help-img-packet {
+					.help-img {
+						max-width: 542px;
+					}
+				}
+			}
+
+			.lyrics-box {
+				max-width: 390px;
+				.title-need-help {
+					.title {
+						font-size: 3.2rem;
+					}
+				}
+				.text-box {
+					.text {
+						font-size: 1.8rem;
+						color: #65816d;
+					}
+				}
+			}
+		}
+
+		
+	}
+}
