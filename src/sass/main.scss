@@ -21,6 +21,7 @@ html {
 	position: fixed;
 	z-index: 100;
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.12);
+
 	// height: 80vh;
 
 	.box {
@@ -32,7 +33,6 @@ html {
 		padding: 1.4em;
 		background-color: #fff;
 		z-index: 15;
-		box-shadow: 0 0 20px rgba(0, 0, 0, 0.12);
 
 		.burger-btn {
 			border: none;
